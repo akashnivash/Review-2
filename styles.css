@@ -1,0 +1,119 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url("https://cdn.bajajauto.com/-/media/Assets/bajajauto/home-page/Product-Carousel/new-2023/homebanner-new-23/webp-hb/desktop_banner_new.ashx");
+    
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .hero {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  section {
+    padding: 40px 0;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: aqua;
+  }
